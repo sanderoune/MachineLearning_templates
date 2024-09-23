@@ -169,7 +169,7 @@ plt.legend()
 plt.xlabel('Epochs')
 plt.ylabel('Mean Squared Error')
 plt.savefig('model_training_history')
-plt.savefig('./training_loss', dpi = 300)
+plt.savefig('./training_loss_tensorflow', dpi = 300)
 plt.close()
 
 
