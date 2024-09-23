@@ -1,5 +1,5 @@
 # Multilayer perceptron classifier for Titanic survivors dataset.
-# The multi-layer perceptron model of skLearn is implemented.
+# ML library: sklearn.
 
 import pandas as pd
 import seaborn as sns # library for statistical data visualization
