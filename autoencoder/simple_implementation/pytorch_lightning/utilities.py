@@ -2,7 +2,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 logspath = './logs/autoencoder_exp/'
-version = 4
+version = 2
 
 df = pd.read_csv(logspath + 'version_%i/metrics.csv' %version)
 nan_index = df.loc[pd.notna(df['train_loss']), :].index

@@ -9,7 +9,7 @@ from torchvision import transforms
 import matplotlib.pyplot as plt
 import numpy as np    
 
-model_version = 'version_0'
+model_version = 'version_2'
 # data
 dataset = MNIST('../MNIST/', train=True, download=True, transform=transforms.ToTensor()) # transforms.ToTensor() -> convert images in the range [0,1]
 mnist_train, mnist_val = random_split(dataset, [50000, 10000])
